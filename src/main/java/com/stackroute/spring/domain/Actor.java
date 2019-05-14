@@ -3,6 +3,10 @@ public class Actor{
     private String actorName;
     private String actorGender;
     private int actorAge;
+
+    public Actor() {
+    }
+
     public Actor(String actorName, String actorGender, int actorAge) {
         this.actorName = actorName;
         this.actorGender = actorGender;
